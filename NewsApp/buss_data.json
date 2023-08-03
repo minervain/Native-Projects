@@ -1,0 +1,37 @@
+[
+    {
+      "id": 0,
+      "puan": "9/10",
+      "title": "KAMİL KOÇ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "imageUrl": "https://static.bilet.com/images/bus/firmalar/kamil-koc.jpg"
+    },
+    {
+      "id": 1,
+      "puan": "5/10",
+      "title": "TOKAT YILDIZI",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "imageUrl": "https://static.bilet.com/images/bus/firmalar/tokat-yildizi.jpg"
+    },
+    {
+      "id": 2,
+      "puan": "8/10",
+      "title": "TOKAT SEYEHAT",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..",
+      "imageUrl": "https://static.bilet.com/images/bus/firmalar/tokat-seyahat.jpg"
+    },
+    {
+      "id": 3,
+      "puan": "7/10",
+      "title": "TOPÇAM SEYAHAT",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "imageUrl": "https://static.bilet.com/images/bus/firmalar/topcam-turizm.jpg"
+    },
+    {
+      "id": 4,
+      "puan": "7/10",
+      "title": "METRO SEYEHAT",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "imageUrl": "https://denizlimikrofon.com/wp-content/uploads/2023/04/metro.jpeg"
+    }
+  ]
