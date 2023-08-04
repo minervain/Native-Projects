@@ -7,11 +7,14 @@ export default function App() {
 
   const [todoText, setTodoText] = useState('');
   const [todos, setTodos] = useState([]);
+  const [count, setCount] = useState(0);
+
 
   const addTodo = () => {
     if (todoText.trim() !== '') {
       setTodos([...todos, { text: todoText }]);
       setTodoText('');
+      setCount(count+1)
     }
   };
 
@@ -20,6 +23,8 @@ export default function App() {
     const newTodos = [...todos];
     newTodos.splice(index, 1);
     setTodos(newTodos);
+    setCount(count-1)
+
 };
 
 
@@ -29,7 +34,7 @@ export default function App() {
       <View>
         <View style={styles.header}>
           <Text style={styles.baslik}>YAPILACAKLAR</Text>
-          <Text style={styles.deger}>0</Text>
+          <Text style={styles.deger}>{count}</Text>
         </View>
         <FlatList
         
