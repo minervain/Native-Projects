@@ -1,12 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Category from './pages/Category/index';
+import Detail from './pages/Detail/index';
+import Food from './pages/Foods/index';
+
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Kategori" component={Category} />
+        <Stack.Screen name="Detay" component={Detail} />
+        <Stack.Screen name="Yemekler" component={Food} />
+
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
