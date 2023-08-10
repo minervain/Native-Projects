@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Product from './pages/product/Product';
 import Detail from './pages/detail/detail';
+import Login from './pages/Login/Login';
 
 export default function App() {
 
@@ -11,6 +12,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+      <Stack.Screen name="Login" component={Login} />
+
         <Stack.Screen name="Ürünler" component={Product} />
         <Stack.Screen name="Detay" component={Detail} />
 
