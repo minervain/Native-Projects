@@ -1,0 +1,6 @@
+.Card-contain{
+    display: flex;
+    background: white;
+    width: 20%;
+    flex-direction: row;
+}

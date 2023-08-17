@@ -1,0 +1,17 @@
+.y{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+.x{
+    width: 50%;
+    height: 190px;
+    background-color: aquamarine;
+    color: rgb(255, 6, 6);
+    border: none;
+    border-radius: 25px;
+    outline: 0;
+    resize: none;
+    padding: 20px;
+
+}
